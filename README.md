@@ -8,7 +8,7 @@ So when I get the chance one of the first things I ever do for something I’m h
 
 This repo is how I usually configure things (To be honest most of my motivation for putting this here is so that I don’t have to keep digging it out the last project I worked on...). It’s nothing special, really is only about a dozen lines of pretty average Bash, but it works well and is suited to a lot of the projects I tend to work on where I have lots of different languages at play in the one repo.
 
-##### Here’s what it does;
+#### Here’s what it does;
 
 - Support for arbitrary formatters — it’s just shell.
 - Support for formatting sub-paths — it’s also just shell.
