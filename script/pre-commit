@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+export GIT_PARAMS="$*"
+yarn run lint-staged
