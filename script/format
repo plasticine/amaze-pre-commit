@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+readonly PROJECT_PATH="$(pwd)/${1}"; shift
+readonly FORMAT_COMMAND="${1}"; shift
+readonly INPUT_FILES="$@"
+PROJECT_RELATIVE_FILES=()
+
+for f in ${INPUT_FILES[@]}; do
+  PROJECT_RELATIVE_FILES+=( "${f/$PROJECT_PATH\//}" )
+done
+
+cd "$PROJECT_PATH"
+$FORMAT_COMMAND "${PROJECT_RELATIVE_FILES[@]}"
