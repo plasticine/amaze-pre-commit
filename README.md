@@ -24,7 +24,9 @@ make .git/hooks/pre-commit
 
 #### Configure the paths you want to lint in `package.json` in the root of your project
 
-Each subpath is responsible for configuring it’s formatting. The JS project will probably use prettier, and for actually civilised lanuages like Go or Elixir you can just directly use their toolchain — whatever. Basically all that `script/format` does is change path into the subdir and runs the command you gave it.
+Each subpath is responsible for configuring it’s formatting. The JS project will probably use prettier, and for actually civilised lanuages like Go or Elixir you can just directly use their toolchain — whatever, just don’t pick a tool with lots of options because then you’ll just argue about the options.
+
+Anyway, basically all that `script/format` does is change path into the subdir and runs the command you gave it.
 
 These paths will be formatted in parallel so it shouldn’t slow down your commit speed too much.
 
