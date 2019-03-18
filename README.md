@@ -1,6 +1,6 @@
 # This repo probably should have been a blog post?
 
-Enforced, opinionated language formatting is the best thing since sliced bread. Arguing, debating and changing formatting semantics is whatever the opposite of sliced bread is.
+Enforced, opinionated code formatting is the best thing since sliced bread. Arguing, debating and changing formatting semantics is whatever the opposite of sliced bread is.
 
 Don’t get me wrong however — code formatting _is_ important — it’s the debating of it that’s not. Everyone will have their own personal preferences anyway, none of which really matter. Better to give up and make a machine do it.
 
