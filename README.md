@@ -1,4 +1,4 @@
-# This repo probably should have been a blog post?
+# Make a machine do it
 
 Enforced, opinionated code formatting is the best thing since sliced bread. Arguing, debating and changing formatting semantics is whatever the opposite of sliced bread is.
 
