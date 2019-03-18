@@ -1,0 +1,22 @@
+{
+  "license": "WTFPL",
+  "lint-staged": {
+    "linters": {
+      "services/js-project/**/*.{js,jsx,json,css}": [
+        "script/format 'services/js-project' 'yarn format'",
+        "git add"
+      ],
+      "services/elixir-projec/**/*.{ex,exs}": [
+        "script/format 'services/elixir-project' 'mix format'",
+        "git add"
+      ],
+      "services/go-project/**/*.{go}": [
+        "script/format 'services/go-project' 'go fmt'",
+        "git add"
+      ]
+    }
+  },
+  "dependencies": {
+    "lint-staged": "^8.1.0"
+  }
+}
